@@ -92,7 +92,7 @@ public class SnakeGame extends Game {
     private void gameOver(){
         stopTurnTimer();
         isGameStopped=true;
-        showMessageDialog(Color.BLACK,"Pizda tebe",Color.RED,100);
+        showMessageDialog(Color.BLACK,"you close",Color.RED,100);
 
     }
     private void win(){
